@@ -29,8 +29,8 @@ SECRET_KEY = os.environ.get("DATABASE_URL")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-alistairdris-djangoblog-mh7yds72ckq.ws-eu114.gitpod.io',
-                '.herokuapp.com', "https://8000-alistairdris-djangoblog-mh7yds72ckq.ws-eu114.gitpod.io/"]
+ALLOWED_HOSTS = ['8000-alistairdris-djangoblog-mh7yds72ckq.ws-eu115.gitpod.io',
+                '.herokuapp.com']
 
 
 # Application definition
