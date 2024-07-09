@@ -92,7 +92,8 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
-    "https://*.gitpod.io"
+    "https://*.gitpod.io",
+    "https://*.codeinstitute-ide.net"
 ]
 
 # Password validation
