@@ -16,10 +16,11 @@ def about(request):
         if collaborate_form.is_valid:
             collaborate_form.save()
             messages.add_message(
-                request, messages.SUCCESS,
+                request,
+                messages.SUCCESS,
                 "Collaboration request received! I endeavour to respond within 2 working days."
             )
-    
+
     about = About.objects.all().order_by('-updated_on').first()
     collaborate_form = CollaborateForm()
 
